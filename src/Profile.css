@@ -1,0 +1,82 @@
+.Profile{height: 100vh;
+    
+color: white;}
+.Body{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+
+}
+.Info{
+display: flex;
+width: 80%;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+padding-top: 8%;
+
+
+
+}
+
+.Info>img{
+    height: 100px;
+    
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-top: 8%;
+    
+}
+
+
+.Plans>h3{
+    border-bottom: solid #282c2d ;
+    padding:10px;
+    
+}
+.details{
+    width: 500px;
+}
+.Signout{position:fixed;
+    width: 500px;
+    
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: red;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+margin-top: 5%;}
+
+.Body>h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #282c2d;
+    
+
+
+}
+.details>h2{background-color: grey;
+padding: 15px;
+font-size: 20px;
+
+}
+.e{
+    font-size: 60px;
+    padding: 10px;
+   
+    border-bottom: solid #282c2d ;
+    font-weight: 400;
+}
+.Signout:hover{
+    opacity: 5;
+
+}

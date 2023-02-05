@@ -1,0 +1,27 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+.ctext{
+    color: whitesmoke;
+   
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.citem{
+
+display: flex;
+object-fit: contain;
+flex-direction: column;
+padding: 10px;
+
+
+}
+.citemimg::-webkit-scrollbar{
+    display:none
+;}
+.citemimg{
+border-radius: 10px;
+margin-bottom: 5px;
+box-shadow: 0px 0px 5px black;
+overflow-y: hidden;
+    overflow-x: scroll;
+
+}
